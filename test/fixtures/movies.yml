@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  released: 2013-02-06 00:31:38
+  genre: MyString
+  director: MyString
+  writer: MyString
+  star: MyString
+  summary: MyString
+
+two:
+  title: MyString
+  released: 2013-02-06 00:31:38
+  genre: MyString
+  director: MyString
+  writer: MyString
+  star: MyString
+  summary: MyString

@@ -35,6 +35,7 @@
   <%= @movie.summary %>
 </p>
 
+Best : <%= rating_for @movie %>
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |
 <%= link_to 'Back', movies_path %>

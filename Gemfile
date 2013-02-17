@@ -28,9 +28,8 @@ gem "open_graph_helper"
 gem "rmagick"
 gem "carrierwave"
 gem "carrierwave-meta"
-
 gem "settingslogic"
-
+gem 'letsrate'
 gem "anjlab-bootstrap-rails", ">= 2.2.2", :require => "bootstrap-rails"
 gem "bootstrap_helper", ">= 2.1.2.1"
 gem "simple_form", "2.0.3"

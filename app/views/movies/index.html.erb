@@ -1,6 +1,10 @@
-<h1>Listing Movies</h1>
+  <%= render_list :class => "nav nav-tabs" do |li|
+                li << link_to("本週新片",movies_path)
+                li << link_to("票房排行",movies_path)
+                li << link_to("單項評比排行",movies_path)
+              end %>
 
-<table>
+<table class="table">
   <tr>
     <th>Title</th>
     <th>Released</th>
@@ -9,6 +13,7 @@
     <th>Writer</th>
     <th>Star</th>
     <th>Summary</th>
+    <th>Rating</th>
     <th></th>
     <th></th>
     <th></th>
@@ -23,6 +28,7 @@
     <td><%= movie.writer %></td>
     <td><%= movie.star %></td>
     <td><%= movie.summary %></td>
+    <td><%= rating_for movie %></td>
     <td><%= link_to 'Show', movie %></td>
     <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
     <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
